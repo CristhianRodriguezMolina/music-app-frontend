@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { StyleSheet, View, Text } from 'react-native'
 
 const SongItem = (props) => {
 
@@ -12,5 +12,9 @@ const SongItem = (props) => {
 		</View>
 	)
 }
+
+const styles = StyleSheet.create({
+
+});
 
 export default SongItem
